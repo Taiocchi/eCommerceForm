@@ -34,16 +34,19 @@
             Rimuovi = new Button();
             comboBox1 = new ComboBox();
             label3 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // listBox1
             // 
-            listBox1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            listBox1.BackColor = Color.LightGray;
+            listBox1.BorderStyle = BorderStyle.None;
+            listBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point);
             listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 30;
+            listBox1.ItemHeight = 18;
             listBox1.Location = new Point(62, 131);
             listBox1.Name = "listBox1";
-            listBox1.Size = new Size(273, 214);
+            listBox1.Size = new Size(273, 198);
             listBox1.TabIndex = 0;
             // 
             // label1
@@ -58,7 +61,9 @@
             // 
             // Aggiungi
             // 
-            Aggiungi.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            Aggiungi.FlatStyle = FlatStyle.Flat;
+            Aggiungi.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Aggiungi.ForeColor = SystemColors.ControlText;
             Aggiungi.Location = new Point(444, 267);
             Aggiungi.Name = "Aggiungi";
             Aggiungi.Size = new Size(116, 42);
@@ -69,7 +74,9 @@
             // 
             // Rimuovi
             // 
-            Rimuovi.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            Rimuovi.FlatStyle = FlatStyle.Flat;
+            Rimuovi.Font = new Font("Arial", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            Rimuovi.ForeColor = SystemColors.ControlText;
             Rimuovi.Location = new Point(594, 267);
             Rimuovi.Name = "Rimuovi";
             Rimuovi.Size = new Size(116, 42);
@@ -80,28 +87,44 @@
             // 
             // comboBox1
             // 
+            comboBox1.BackColor = Color.White;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "13579", "13580", "13581", "13582", "13583", " 13584" });
+            comboBox1.Items.AddRange(new object[] { "Lampadina - 13579", "Lampadina - 13580", "Lampadina - 13581", "Lampadina - 13582", "Lampadina - 13583", "Lampadina - 13584", "Televisore - 13579", "Televisore - 13580", "Televisore - 13581", "Televisore - 13582", "Televisore - 13583", "Televisore - 13584" });
             comboBox1.Location = new Point(507, 181);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
+            comboBox1.Size = new Size(121, 24);
             comboBox1.TabIndex = 7;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(525, 163);
+            label3.Location = new Point(539, 163);
             label3.Name = "label3";
-            label3.Size = new Size(90, 15);
+            label3.Size = new Size(57, 15);
             label3.TabIndex = 8;
-            label3.Text = "Numero seriale:";
+            label3.Text = "Prodotto:";
             label3.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.WhiteSmoke;
+            label2.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.Location = new Point(121, 369);
+            label2.Name = "label2";
+            label2.Size = new Size(157, 24);
+            label2.TabIndex = 9;
+            label2.Text = "Tot. prodotti: 0";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.WhiteSmoke;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(label3);
             Controls.Add(comboBox1);
             Controls.Add(Rimuovi);
@@ -123,5 +146,6 @@
         private Button Rimuovi;
         private ComboBox comboBox1;
         private Label label3;
+        private Label label2;
     }
 }

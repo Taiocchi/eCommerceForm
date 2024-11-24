@@ -15,3 +15,20 @@ C:\Users\taiocchi.21206\C#\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\n
 C:\Users\taiocchi.21206\C#\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.pdb
 C:\Users\taiocchi.21206\C#\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.genruntimeconfig.cache
 C:\Users\taiocchi.21206\C#\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\ref\eCommerceForm.dll
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\bin\Debug\net6.0-windows\eCommerceForm.exe
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\bin\Debug\net6.0-windows\eCommerceForm.deps.json
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\bin\Debug\net6.0-windows\eCommerceForm.runtimeconfig.json
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\bin\Debug\net6.0-windows\eCommerceForm.dll
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\bin\Debug\net6.0-windows\eCommerceForm.pdb
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.Form1.resources
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.csproj.GenerateResource.cache
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.AssemblyInfoInputs.cache
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.AssemblyInfo.cs
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.csproj.CoreCompileInputs.cache
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.sourcelink.json
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.dll
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\refint\eCommerceForm.dll
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.pdb
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\eCommerceForm.genruntimeconfig.cache
+C:\Users\lucta\Desktop\INFORMATICA\Es bernini (C#)\eCommerceForm\eCommerceForm\eCommerceForm\obj\Debug\net6.0-windows\ref\eCommerceForm.dll

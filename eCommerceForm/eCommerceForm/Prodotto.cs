@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace eCommerce
+﻿namespace eCommerce
 {
     class Prodotto : IEquatable<Prodotto>
     {
-        private string marca;
+        private string tipo;
         private string modello;
         private double prezzo;
         private string identificativo;
+        private string nome;
 
-        public string Marca
+        public string Nome
         {
-            get { return marca; }
+            get { return nome; }
+        }
+        public string Tipo
+        {
+            get { return tipo; }
         }
         public string Modello
         {
@@ -31,31 +30,24 @@ namespace eCommerce
             get { return identificativo; }
         }
 
-        public Prodotto(string marca, string modello, string identificativo, double prezzo)
+        public Prodotto(string tipo, string modello, string identificativo, double prezzo)
         {
-            this.marca = marca;
+            this.tipo = tipo;
             this.modello = modello;
             this.identificativo = identificativo;
             this.prezzo = prezzo;
+            nome = tipo + " - " + identificativo; //Concateno l'attributo tipo e identificativo in modo che possa visualizzarli insieme nella lista
         }
-        public bool Equals(Prodotto other)
+
+        public bool Equals(Prodotto other) //Per confrontare l'identificativo di 2 prodotti, il quale e' univoco
         {
-            if (other == null) 
+            if (other == null)
                 return false;
 
-            if (this == other) 
+            if (this == other)
                 return true;
 
             return Identificativo.Equals(other.Identificativo);
         }
-
-        /*
-        public bool Equals(object other)
-        {
-            return Equals(other as Prodotto);
-        }
-        */
-
-
     }
 }
