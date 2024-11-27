@@ -9,6 +9,7 @@
         public List<Prodotto> ProdottiCarrello
         {
             get { return prodottiCarrello; }
+            set { prodottiCarrello = value; } //Per JsonSerializer.Deserialize
         }
         public string Identificativo
         {

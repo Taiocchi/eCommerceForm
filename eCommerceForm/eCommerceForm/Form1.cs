@@ -66,7 +66,6 @@ namespace eCommerceForm
             label2.Text = "Tot. prodotti: " + listBox1.Items.Count.ToString();
         }
 
-        /*
         private void Salva_Click(object sender, EventArgs e)
         {
             //Serializzazione
@@ -81,15 +80,14 @@ namespace eCommerceForm
             //Deserializzazione
             var prodottoDalFile = JsonSerializer.Deserialize<Carrello>(jsonFromFile);
 
-            // Mostra i dati dei prodotti deserializzati
-            string message = "Prodotti salvati e caricati:\n";
-            foreach (var p in C)
+            //Mostra i dati deserializzati
+            string message = $"Carrello Identificativo: {prodottoDalFile.Identificativo}\nProdotti salvati e caricati:\n";
+            foreach (var p in prodottoDalFile.ProdottiCarrello)
             {
-                message += $"Tipo: {p.Tipo}, Identificativo: {p.Identificativo}\n";
+                message += $"Nome: {p.Nome}, Tipo: {p.Tipo}, Modello: {p.Modello}, Prezzo: {p.Prezzo}, Identificativo: {p.Identificativo}\n";
             }
 
             MessageBox.Show(message, "Dettagli Prodotti");
         }
-        */
     }
 }
