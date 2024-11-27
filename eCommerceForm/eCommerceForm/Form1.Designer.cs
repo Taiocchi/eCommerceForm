@@ -35,6 +35,7 @@
             comboBox1 = new ComboBox();
             label3 = new Label();
             label2 = new Label();
+            Salva = new Button();
             SuspendLayout();
             // 
             // listBox1
@@ -118,12 +119,23 @@
             label2.TabIndex = 9;
             label2.Text = "Tot. prodotti: 0";
             // 
+            // Salva
+            // 
+            Salva.Location = new Point(539, 381);
+            Salva.Name = "Salva";
+            Salva.Size = new Size(75, 23);
+            Salva.TabIndex = 10;
+            Salva.Text = "Salva";
+            Salva.UseVisualStyleBackColor = true;
+            Salva.Click += Salva_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(800, 450);
+            Controls.Add(Salva);
             Controls.Add(label2);
             Controls.Add(label3);
             Controls.Add(comboBox1);
@@ -147,5 +159,6 @@
         private ComboBox comboBox1;
         private Label label3;
         private Label label2;
+        private Button Salva;
     }
 }

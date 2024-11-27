@@ -1,4 +1,8 @@
 using eCommerce;
+using System.Text.Json;
+using System.IO;
+using static System.Net.WebRequestMethods;
+using System.Windows.Forms;
 
 namespace eCommerceForm
 {
@@ -6,6 +10,7 @@ namespace eCommerceForm
     {
         Carrello C;
         Prodotto prodotto;
+        string jsonString;
 
         public Form1()
         {
@@ -15,7 +20,7 @@ namespace eCommerceForm
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {   
+        {
             //Cambia colore di sfondo dei pulsanti Aggiungi e Rimuovi
             Aggiungi.BackColor = Color.FromArgb(0, 122, 204);
 
@@ -60,5 +65,31 @@ namespace eCommerceForm
             listBox1.DisplayMember = "Nome";
             label2.Text = "Tot. prodotti: " + listBox1.Items.Count.ToString();
         }
+
+        /*
+        private void Salva_Click(object sender, EventArgs e)
+        {
+            //Serializzazione
+            jsonString = JsonSerializer.Serialize(C);
+
+            string filePath = "prodotti.json";
+
+            System.IO.File.WriteAllText(filePath, jsonString);
+            
+            string jsonFromFile = System.IO.File.ReadAllText("prodotti.json");
+
+            //Deserializzazione
+            var prodottoDalFile = JsonSerializer.Deserialize<Carrello>(jsonFromFile);
+
+            // Mostra i dati dei prodotti deserializzati
+            string message = "Prodotti salvati e caricati:\n";
+            foreach (var p in C)
+            {
+                message += $"Tipo: {p.Tipo}, Identificativo: {p.Identificativo}\n";
+            }
+
+            MessageBox.Show(message, "Dettagli Prodotti");
+        }
+        */
     }
 }
