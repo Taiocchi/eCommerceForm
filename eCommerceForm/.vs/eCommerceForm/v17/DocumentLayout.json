@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\ecommerceform\\ecommerceform\\ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\lucta\\desktop\\informatica\\es bernini (c#)\\ecommerceform\\ecommerceform\\ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Carrello.cs",
               "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Carrello.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Carrello.cs",
@@ -50,14 +50,14 @@
               "RelativeDocumentMoniker": "eCommerceForm\\Form1.cs",
               "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
               "RelativeToolTip": "eCommerceForm\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEkAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T06:58:38.755Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Prodotto.cs",
               "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Prodotto.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Prodotto.cs",
@@ -65,19 +65,19 @@
               "RelativeToolTip": "eCommerceForm\\Prodotto.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T06:58:32.69Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T06:58:32.69Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
+              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "eCommerceForm\\Form1.cs [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:45:12.275Z"
+              "WhenOpened": "2024-11-24T11:45:12.275Z",
+              "EditorCaption": " [Progettazione]"
             }
           ]
         }

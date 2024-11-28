@@ -11,6 +11,7 @@ namespace eCommerceForm
         Carrello C;
         Prodotto prodotto;
         string jsonString;
+        string filePath = "prodotti.json"; //Crea un file "prodotti.json" in cui verranno salvati gli oggetti della lista
 
         public Form1()
         {
@@ -71,23 +72,35 @@ namespace eCommerceForm
             //Serializzazione
             jsonString = JsonSerializer.Serialize(C);
 
-            string filePath = "prodotti.json";
+            System.IO.File.WriteAllText(filePath, jsonString);  
+        }
 
-            System.IO.File.WriteAllText(filePath, jsonString);
-            
+        private void Carica_Click(object sender, EventArgs e)
+        {
             string jsonFromFile = System.IO.File.ReadAllText("prodotti.json");
 
-            //Deserializzazione
-            var prodottoDalFile = JsonSerializer.Deserialize<Carrello>(jsonFromFile);
-
-            //Mostra i dati deserializzati
-            string message = $"Carrello Identificativo: {prodottoDalFile.Identificativo}\nProdotti salvati e caricati:\n";
-            foreach (var p in prodottoDalFile.ProdottiCarrello)
+            if (System.IO.File.Exists(filePath))
             {
-                message += $"Nome: {p.Nome}, Tipo: {p.Tipo}, Modello: {p.Modello}, Prezzo: {p.Prezzo}, Identificativo: {p.Identificativo}\n";
-            }
+                FileInfo fileInfo = new FileInfo(filePath); //Crea FileInfo usando il percorso del file
 
-            MessageBox.Show(message, "Dettagli Prodotti");
+                //Deserializzazione
+                if (fileInfo.Length != 0) //Controlla se FileInfo non e' vuoto
+                {
+                    var prodottoDalFile = JsonSerializer.Deserialize<Carrello>(jsonFromFile);
+                    C.ProdottiCarrello = prodottoDalFile.ProdottiCarrello;
+
+                    //Mostra i dati deserializzati
+                    string message = $"Carrello Identificativo: {prodottoDalFile.Identificativo}\nProdotti salvati e caricati:\n";
+                    foreach (var p in prodottoDalFile.ProdottiCarrello)
+                    {
+                        message += $"Nome: {p.Nome}, Tipo: {p.Tipo}, Modello: {p.Modello}, Prezzo: {p.Prezzo}, Identificativo: {p.Identificativo}\n";
+                    }
+
+                    MessageBox.Show(message, "Dettagli Prodotti");
+
+                    AggiornaInterfaccia();
+                }
+            } 
         }
     }
 }
