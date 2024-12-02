@@ -51,12 +51,8 @@ namespace eCommerceForm
 
         private void Rimuovi_Click(object sender, EventArgs e)
         {
-            //Verifica che l'elemento selezionato sia di tipo Prodotto e, se è vero, lo assegna direttamente alla variabile prodottoSelezionato
-            if (listBox1.SelectedItem is Prodotto prodottoSelezionato)
-            {
-                C.rimuoviProdotto(prodottoSelezionato);
-                AggiornaInterfaccia();
-            }
+            C.rimuoviProdotto((Prodotto)listBox1.SelectedItem);
+            AggiornaInterfaccia();
         }
 
         private void AggiornaInterfaccia()

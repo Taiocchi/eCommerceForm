@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj": {}
+    "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj": {
+    "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
+        "projectUniqueName": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
         "projectName": "eCommerceForm",
-        "projectPath": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
+        "projectPath": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
         "packagesPath": "C:\\Users\\lucta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\obj\\",
+        "outputPath": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\lucta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,6 +55,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.33, 6.0.33]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -63,7 +81,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

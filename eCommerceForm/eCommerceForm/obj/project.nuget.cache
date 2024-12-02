@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OzW/6U5zpsk=",
+  "dgSpecHash": "bExhKr7wbjk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\lucta\\OneDrive\\Desktop\\Luca\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\eCommerceForm.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lucta\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.33\\microsoft.windowsdesktop.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\lucta\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.33\\microsoft.netcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\lucta\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.33\\microsoft.aspnetcore.app.ref.6.0.33.nupkg.sha512",
+    "C:\\Users\\lucta\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.33\\microsoft.netcore.app.host.win-x64.6.0.33.nupkg.sha512"
+  ],
   "logs": []
 }
