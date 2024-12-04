@@ -32,7 +32,21 @@ namespace eCommerceForm
         {
             CreaOggetto();
 
-            C.aggiungiProdotto(prodotto);
+            bool elementoPresente = false;
+
+            foreach (Prodotto p in C.ProdottiCarrello)
+            {
+                if (p.Identificativo == prodotto.Identificativo && p.Tipo == prodotto.Tipo)
+                {
+                    elementoPresente = true;
+                    break;
+                }     
+            }
+
+            if (elementoPresente == false)
+                C.aggiungiProdotto(prodotto);
+            else
+                MessageBox.Show("L'elemento è già stato aggiunto al carrello");
 
             AggiornaInterfaccia();
         }
@@ -51,7 +65,7 @@ namespace eCommerceForm
 
         private void Rimuovi_Click(object sender, EventArgs e)
         {
-            C.rimuoviProdotto((Prodotto)listBox1.SelectedItem);
+            C.rimuoviProdottoVistaInClasse((Prodotto)listBox1.SelectedItem);
             AggiornaInterfaccia();
         }
 
