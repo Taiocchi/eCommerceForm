@@ -32,7 +32,7 @@ namespace eCommerceForm
         {
             CreaOggetto();
 
-            bool elementoPresente = false;
+            /*bool elementoPresente = false;
 
             foreach (Prodotto p in C.ProdottiCarrello)
             {
@@ -46,7 +46,9 @@ namespace eCommerceForm
             if (elementoPresente == false)
                 C.aggiungiProdotto(prodotto);
             else
-                MessageBox.Show("L'elemento è già stato aggiunto al carrello");
+                MessageBox.Show("L'elemento è già stato aggiunto al carrello");*/
+
+            //C.ProdottiCarrello.Contains
 
             AggiornaInterfaccia();
         }
