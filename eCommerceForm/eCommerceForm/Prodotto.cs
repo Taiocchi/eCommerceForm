@@ -39,15 +39,12 @@
             nome = tipo + " - " + identificativo; //Concateno l'attributo tipo e identificativo in modo che possa visualizzarli insieme nella lista
         }
 
-        public bool Equals(Prodotto other) //Per confrontare l'identificativo di 2 prodotti, il quale e' univoco
+        public bool Equals(Prodotto other)
         {
             if (other == null)
                 return false;
 
-            if (this == other)
-                return true;
-
-            return Identificativo.Equals(other.Identificativo);
+            return this.Identificativo == other.Identificativo;
         }
     }
 }

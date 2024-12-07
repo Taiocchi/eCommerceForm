@@ -3,6 +3,8 @@ using System.Text.Json;
 using System.IO;
 using static System.Net.WebRequestMethods;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Linq;
 
 namespace eCommerceForm
 {
@@ -31,6 +33,11 @@ namespace eCommerceForm
         private void Aggiungi_Click(object sender, EventArgs e)
         {
             CreaOggetto();
+            if (C.ProdottiCarrello.Contains(prodotto) != true)
+            {
+                C.aggiungiProdotto(prodotto);
+                AggiornaInterfaccia();
+            }
 
             /*bool elementoPresente = false;
 
@@ -47,10 +54,6 @@ namespace eCommerceForm
                 C.aggiungiProdotto(prodotto);
             else
                 MessageBox.Show("L'elemento è già stato aggiunto al carrello");*/
-
-            //C.ProdottiCarrello.Contains
-
-            AggiornaInterfaccia();
         }
 
         private void CreaOggetto()
@@ -84,7 +87,7 @@ namespace eCommerceForm
             //Serializzazione
             jsonString = JsonSerializer.Serialize(C);
 
-            System.IO.File.WriteAllText(filePath, jsonString);  
+            System.IO.File.WriteAllText(filePath, jsonString);
         }
 
         private void Carica_Click(object sender, EventArgs e)
@@ -112,7 +115,31 @@ namespace eCommerceForm
 
                     AggiornaInterfaccia();
                 }
-            } 
+            }
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox2.SelectedItem == "ProdottoAlimentare")
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Budino - 13573");
+                comboBox1.Items.Add("Budino - 13574");
+                comboBox1.Items.Add("Budino - 13575");
+                comboBox1.Items.Add("Budino - 13576");
+                comboBox1.Items.Add("Budino - 13577");
+                comboBox1.Items.Add("Budino - 13578");
+            }
+            else if (comboBox2.SelectedItem == "ProdottoElettronico")
+            {
+                comboBox1.Items.Clear();
+                comboBox1.Items.Add("Televisore - 13579");
+                comboBox1.Items.Add("Televisore - 13580");
+                comboBox1.Items.Add("Televisore - 13581");
+                comboBox1.Items.Add("Televisore - 13582");
+                comboBox1.Items.Add("Televisore - 13583");
+                comboBox1.Items.Add("Televisore - 13584");
+            }
         }
     }
 }

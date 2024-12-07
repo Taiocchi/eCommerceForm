@@ -37,6 +37,8 @@
             label2 = new Label();
             Salva = new Button();
             Carica = new Button();
+            label4 = new Label();
+            comboBox2 = new ComboBox();
             SuspendLayout();
             // 
             // listBox1
@@ -93,8 +95,7 @@
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Lampadina - 13579", "Lampadina - 13580", "Lampadina - 13581", "Lampadina - 13582", "Lampadina - 13583", "Lampadina - 13584", "Televisore - 13579", "Televisore - 13580", "Televisore - 13581", "Televisore - 13582", "Televisore - 13583", "Televisore - 13584" });
-            comboBox1.Location = new Point(507, 181);
+            comboBox1.Location = new Point(589, 171);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(121, 24);
             comboBox1.TabIndex = 7;
@@ -102,7 +103,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(539, 163);
+            label3.Location = new Point(619, 153);
             label3.Name = "label3";
             label3.Size = new Size(57, 15);
             label3.TabIndex = 8;
@@ -140,12 +141,37 @@
             Carica.UseVisualStyleBackColor = true;
             Carica.Click += Carica_Click;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(474, 153);
+            label4.Name = "label4";
+            label4.Size = new Size(43, 15);
+            label4.TabIndex = 13;
+            label4.Text = "Classe:";
+            label4.TextAlign = ContentAlignment.TopCenter;
+            // 
+            // comboBox2
+            // 
+            comboBox2.BackColor = Color.White;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.Font = new Font("Arial", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "ProdottoElettronico", "ProdottoAlimentare" });
+            comboBox2.Location = new Point(438, 171);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(121, 24);
+            comboBox2.TabIndex = 12;
+            comboBox2.SelectedIndexChanged += comboBox2_SelectedIndexChanged;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(800, 450);
+            Controls.Add(label4);
+            Controls.Add(comboBox2);
             Controls.Add(Carica);
             Controls.Add(Salva);
             Controls.Add(label2);
@@ -173,5 +199,7 @@
         private Label label2;
         private Button Salva;
         private Button Carica;
+        private Label label4;
+        private ComboBox comboBox2;
     }
 }

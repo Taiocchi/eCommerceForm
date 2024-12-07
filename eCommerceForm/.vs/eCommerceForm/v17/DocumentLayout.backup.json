@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\prodotto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\prodottoalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\prodottoalimentare.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\prodottoelettronico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\prodottoelettronico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|c:\\users\\taiocchi.21206\\c#\\ecommerceform\\ecommerceform\\ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A20FE62F-A7EE-4733-B6D9-E03F545E00F7}|eCommerceForm\\eCommerceForm.csproj|solutionrelative:ecommerceform\\carrello.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,17 +34,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Form1.cs",
               "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
               "RelativeToolTip": "eCommerceForm\\Form1.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDIAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAIwDwAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T06:58:38.755Z",
               "IsPinned": true,
@@ -45,38 +53,65 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form1.cs [Progettazione]",
+              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
+              "RelativeDocumentMoniker": "eCommerceForm\\Form1.cs",
+              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
+              "RelativeToolTip": "eCommerceForm\\Form1.cs [Progettazione]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T10:29:48.707Z",
+              "EditorCaption": " [Progettazione]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdottoAlimentare.cs",
+              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\ProdottoAlimentare.cs",
+              "RelativeDocumentMoniker": "eCommerceForm\\ProdottoAlimentare.cs",
+              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\ProdottoAlimentare.cs",
+              "RelativeToolTip": "eCommerceForm\\ProdottoAlimentare.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T10:26:05.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdottoElettronico.cs",
+              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\ProdottoElettronico.cs",
+              "RelativeDocumentMoniker": "eCommerceForm\\ProdottoElettronico.cs",
+              "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\ProdottoElettronico.cs",
+              "RelativeToolTip": "eCommerceForm\\ProdottoElettronico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-06T07:45:03.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Carrello.cs",
               "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Carrello.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Carrello.cs",
               "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Carrello.cs",
               "RelativeToolTip": "eCommerceForm\\Carrello.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAwwAgAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T06:59:18.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Prodotto.cs",
               "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Prodotto.cs",
               "RelativeDocumentMoniker": "eCommerceForm\\Prodotto.cs",
               "ToolTip": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Prodotto.cs",
               "RelativeToolTip": "eCommerceForm\\Prodotto.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAcwDIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwC8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-22T06:58:32.69Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.cs [Progettazione]",
-              "DocumentMoniker": "C:\\Users\\taiocchi.21206\\C#\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs",
-              "RelativeDocumentMoniker": "eCommerceForm\\Form1.cs",
-              "ToolTip": "C:\\Users\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
-              "RelativeToolTip": "..\\..\\..\\..\\lucta\\Desktop\\INFORMATICA\\Es bernini (C#)\\eCommerceForm\\eCommerceForm\\eCommerceForm\\Form1.cs [Progettazione]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T11:45:12.275Z"
             }
           ]
         }
