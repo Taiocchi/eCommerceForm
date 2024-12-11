@@ -14,6 +14,8 @@ namespace eCommerceForm
         Prodotto prodotto;
         string jsonString;
         string filePath = "prodotti.json"; //Crea un file "prodotti.json" in cui verranno salvati gli oggetti della lista
+        double sommaPrezzoBase = 0;
+        double sommaPrezzoEffettivo = 0;
 
         public Form1()
         {
@@ -32,13 +34,18 @@ namespace eCommerceForm
 
         private void Aggiungi_Click(object sender, EventArgs e)
         {
-            CreaOggetto();
-            if (C.ProdottiCarrello.Contains(prodotto) != true)
+            if(comboBox1.SelectedItem != null && comboBox2.SelectedItem != null)
             {
-                C.aggiungiProdotto(prodotto);
-                AggiornaInterfaccia();
+                CreaOggetto();
+                if (C.ProdottiCarrello.Contains(prodotto) != true)
+                {
+                    sommaPrezzoBase += prodotto.PrezzoBase;
+                    sommaPrezzoEffettivo += prodotto.calcolaPrezzoEffettivo();
+                    C.aggiungiProdotto(prodotto);
+                    AggiornaInterfaccia();
+                }
             }
-
+           
             /*bool elementoPresente = false;
 
             foreach (Prodotto p in C.ProdottiCarrello)
@@ -58,19 +65,32 @@ namespace eCommerceForm
 
         private void CreaOggetto()
         {
-            string selezionato = comboBox1.SelectedItem.ToString();
+            if(comboBox1.SelectedItem != null && comboBox2.SelectedItem != null)
+            {
+                string selezionato = comboBox1.SelectedItem.ToString();
 
-            string[] dati = selezionato.Split(" - "); //In questo modo posso dividere il tipo e il numero seriale di ogni prodotto inseriti tramite la comboBox1 
+                string[] dati = selezionato.Split(" - "); //In questo modo posso dividere il tipo e il numero seriale di ogni prodotto inseriti tramite la comboBox1 
 
-            string tipoProdotto = dati[0];
-            string numeroSeriale = dati[1];
+                string tipoProdotto = dati[0];
+                string numeroSeriale = dati[1];
 
-            prodotto = new Prodotto(tipoProdotto, "A1", numeroSeriale, 121);
+                if (comboBox2.SelectedItem == "ProdottoAlimentare")
+                {
+                    prodotto = new ProdottoAlimentare(tipoProdotto, "A1", numeroSeriale, 50);
+                }
+                else if (comboBox2.SelectedItem == "ProdottoElettronico")
+                {
+                    prodotto = new ProdottoElettronico(tipoProdotto, "A1", numeroSeriale, 50);
+                }
+            }
         }
 
         private void Rimuovi_Click(object sender, EventArgs e)
         {
+            Prodotto prodotto = (Prodotto)listBox1.SelectedItem;
             C.rimuoviProdottoVistaInClasse((Prodotto)listBox1.SelectedItem);
+            sommaPrezzoBase -= prodotto.PrezzoBase;
+            sommaPrezzoEffettivo -= prodotto.calcolaPrezzoEffettivo();
             AggiornaInterfaccia();
         }
 
@@ -79,7 +99,9 @@ namespace eCommerceForm
             listBox1.DataSource = null;
             listBox1.DataSource = C.ProdottiCarrello;
             listBox1.DisplayMember = "Nome";
-            label2.Text = "Tot. prodotti: " + listBox1.Items.Count.ToString();
+            totProdotti.Text = "Tot. prodotti: " + listBox1.Items.Count.ToString();
+            prezzoBase.Text = "Tot. Prezzo base: " + sommaPrezzoBase.ToString();
+            prezzoEffettivo.Text = "Tot. Prezzo effettivo: " + sommaPrezzoEffettivo.ToString();
         }
 
         private void Salva_Click(object sender, EventArgs e)
@@ -102,13 +124,17 @@ namespace eCommerceForm
                 if (fileInfo.Length != 0) //Controlla se FileInfo non e' vuoto
                 {
                     var prodottoDalFile = JsonSerializer.Deserialize<Carrello>(jsonFromFile);
+                    foreach (var p in prodottoDalFile.ProdottiCarrello)
+                    {
+                        p.calcolaPrezzoEffettivo();
+                    }
                     C.ProdottiCarrello = prodottoDalFile.ProdottiCarrello;
 
                     //Mostra i dati deserializzati
                     string message = $"Carrello Identificativo: {prodottoDalFile.Identificativo}\nProdotti salvati e caricati:\n";
                     foreach (var p in prodottoDalFile.ProdottiCarrello)
                     {
-                        message += $"Nome: {p.Nome}, Tipo: {p.Tipo}, Modello: {p.Modello}, Prezzo: {p.Prezzo}, Identificativo: {p.Identificativo}\n";
+                        message += $"Nome: {p.Nome}, Tipo: {p.Tipo}, Modello: {p.Modello}, Prezzo base: {p.PrezzoBase}, Prezzo effettivo: {p.calcolaPrezzoEffettivo()}, Identificativo: {p.Identificativo}\n";
                     }
 
                     MessageBox.Show(message, "Dettagli Prodotti");

@@ -4,13 +4,14 @@
     {
         private string tipo;
         private string modello;
-        private double prezzo;
+        private double prezzoBase;
         private string identificativo;
         private string nome;
 
         public string Nome
         {
             get { return nome; }
+            protected set { nome = value; }
         }
         public string Tipo
         {
@@ -20,23 +21,29 @@
         {
             get { return modello; }
         }
-        public double Prezzo
+        public double PrezzoBase
         {
-            get { return prezzo; }
-            set { prezzo = value; }
+            get { return prezzoBase; }
+            set { prezzoBase = value; }
         }
+
         public string Identificativo
         {
             get { return identificativo; }
         }
+        virtual public double calcolaPrezzoEffettivo()
+        {
+            //nome = tipo + " - " + identificativo + " - PrezzoBase: " + prezzoBase + " - PrezzoEffettivo: " + calcolaPrezzoEffettivo();
+            return PrezzoBase;
+        }
 
-        public Prodotto(string tipo, string modello, string identificativo, double prezzo)
+        public Prodotto(string tipo, string modello, string identificativo, double prezzoBase)
         {
             this.tipo = tipo;
             this.modello = modello;
             this.identificativo = identificativo;
-            this.prezzo = prezzo;
-            nome = tipo + " - " + identificativo; //Concateno l'attributo tipo e identificativo in modo che possa visualizzarli insieme nella lista
+            this.prezzoBase = prezzoBase;
+            nome = tipo + " - " + identificativo + " - PrezzoBase: " + prezzoBase + " - PrezzoEffettivo: " + calcolaPrezzoEffettivo();
         }
 
         public bool Equals(Prodotto other)
