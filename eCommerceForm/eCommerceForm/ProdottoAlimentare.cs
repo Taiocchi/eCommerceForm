@@ -14,8 +14,9 @@ namespace eCommerce
         }
         override public double calcolaPrezzoEffettivo()
         {
-            //Nome = Tipo + " - " + Identificativo + " - PrezzoBase: " + PrezzoBase + " - PrezzoEffettivo: " + calcolaPrezzoEffettivo();
-            return PrezzoBase * 0.8;
+            PrezzoEffettivo = PrezzoBase * 0.8;
+            Nome = Tipo + " - " + Identificativo + " - PrezzoBase: " + PrezzoBase + " - PrezzoEffettivo: " + PrezzoEffettivo;
+            return PrezzoEffettivo;
         }
     }
 }

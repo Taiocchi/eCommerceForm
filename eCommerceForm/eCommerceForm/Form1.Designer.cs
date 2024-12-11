@@ -171,7 +171,7 @@
             prezzoBase.AutoSize = true;
             prezzoBase.BackColor = Color.WhiteSmoke;
             prezzoBase.Font = new Font("Arial", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            prezzoBase.Location = new Point(59, 398);
+            prezzoBase.Location = new Point(39, 398);
             prezzoBase.Name = "prezzoBase";
             prezzoBase.Size = new Size(198, 24);
             prezzoBase.TabIndex = 14;

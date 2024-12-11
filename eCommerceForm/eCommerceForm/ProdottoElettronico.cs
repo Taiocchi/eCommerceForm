@@ -8,8 +8,9 @@
         }
         override public double calcolaPrezzoEffettivo()
         {
-            //Nome = Tipo + " - " + Identificativo + " - PrezzoBase: " + PrezzoBase + " - PrezzoEffettivo: " + calcolaPrezzoEffettivo();
-            return PrezzoBase * 0.9;
+            PrezzoEffettivo = PrezzoBase * 0.9;
+            Nome = Tipo + " - " + Identificativo + " - PrezzoBase: " + PrezzoBase + " - PrezzoEffettivo: " + PrezzoEffettivo;
+            return PrezzoEffettivo;
         }
     }
 }
